@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Portfolio
 
 A modern, responsive portfolio website built with Vue 3 and Vite. Showcase your projects, skills, and services with this sleek and professional single-page application.
