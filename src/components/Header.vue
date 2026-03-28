@@ -84,6 +84,9 @@ nav.primary a {
   font-size: 0.95rem;
   cursor: pointer;
 }
+nav.primary a:hover {
+  color: var(--gold)
+}
 
 #mobile-toggle {
   background-color: black;

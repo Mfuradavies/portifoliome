@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Component</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        @media(max-width: 576px){
+            p{
+                display:none
+            }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+    <svg width="250" height="500" style="position: absolute; top: 0; left: 0;">
+0    </svg>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Example: Draw a rectangle
+       ctx.beginPath();
+       ctx.arc(200, 250, 100, 0, Math.PI * 2);
+       ctx.strokeStyle = 'blue';
+       ctx.lineWidth = 5;   
+         ctx.stroke();
+    </script>
+    <br>
+    <p>body</p><hr><p>html</p>
+    </body>
+    </html>

@@ -163,6 +163,9 @@ const socialLinks = [
   height: 18px;
   display: inline;
 }
+.social img:hover{
+  scale: 1.5;
+}
 
 .hero-right {
   flex: 0 0 420px;

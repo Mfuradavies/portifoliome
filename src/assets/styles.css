@@ -1,6 +1,6 @@
 :root {
     --light: #E0E0E0;
-    --dark: #0B0B0F;
+    --black: #0B0B0F;
     --black: #000;
     --gold: #08a520;
     --muted: #9AA0A6;
@@ -22,7 +22,7 @@ body {
     margin: 0;
     font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
     color: #e6e7e8;
-    background: var(--dark);
+    background: var(--black);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -94,12 +94,15 @@ nav.primary a {
 }
 .btn-cta:hover {
     opacity: 0.9;
-    scale: 1.5;
+    scale: 1.2;
     background-color: #066f9b;
+    color: var(--black)
+    
 }
 #btn-cta {
     opacity: 0.9;
-    scale: 1.5;
+    scale: 1.2;
+    
 }
 
 .download {
@@ -128,9 +131,9 @@ nav.primary a {
 .hero .split {
     width: 100%;
     height: 100%;
-    background: linear-gradient(120deg, var(--light) 45%, var(--black) 45%);
+    background: linear-gradient( 120deg, var(--gold) 20%, var(--black) 45%);
     position: relative;
-    overflow: visible;
+    overflow:hidden;
 }
 
 .container {
@@ -230,6 +233,7 @@ nav.primary a {
     height: 80%;
     object-fit: cover;
     box-shadow: 0 30px 60px rgba(2, 6, 23, 0.6);
+    clip: rect(0, 100px, 100px, 0);
 }
 
 /* Content Sections */
@@ -238,7 +242,7 @@ section {
 }
 
 .dark-bg {
-    background: var(--dark);
+    background: var(--black);
 }
 
 /* Shared Utilities */
