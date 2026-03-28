@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio
 
 A modern, responsive portfolio website built with Vue 3 and Vite. Showcase your projects, skills, and services with this sleek and professional single-page application.
@@ -136,3 +137,7 @@ Feel free to fork this project and customize it for your portfolio!
 ---
 
 **Happy coding!** 🎉
+=======
+# portifoliome
+Hi, I'm Davies! This repository contains the source code for my personal portfolio. I built this  high-performance website as my first real world project 
+>>>>>>> eb63ff08f4a06d4cb2267036ed5a9795260b6842
